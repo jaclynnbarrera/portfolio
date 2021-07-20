@@ -2,8 +2,10 @@ import React from "react";
 import Intro from "../components/Intro";
 import Nav from "../components/Nav";
 import Projects from "../components/Projects";
+import About from "../components/About";
+import Contact from "../components/Contact";
 
-class HomeContainer extends React.Component {
+class Home extends React.Component {
   render() {
     console.log("home container");
     return (
@@ -11,9 +13,11 @@ class HomeContainer extends React.Component {
         <Nav />
         <Intro />
         <Projects />
+        <About />
+        <Contact />
       </div>
     );
   }
 }
 
-export default HomeContainer;
+export default Home;

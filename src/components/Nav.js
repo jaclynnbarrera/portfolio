@@ -7,7 +7,6 @@ const Nav = () => {
       <p>Jaclyn Barrera</p>
       <p>Projects</p>
       <p>About</p>
-      <p>Email</p>
     </div>
   );
 };

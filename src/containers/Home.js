@@ -9,7 +9,7 @@ class Home extends React.Component {
   render() {
     console.log("home container");
     return (
-      <div className="intro">
+      <div>
         <Nav />
         <Intro />
         <Projects />

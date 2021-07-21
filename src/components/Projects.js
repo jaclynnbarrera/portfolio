@@ -5,7 +5,7 @@ const Projects = () => {
     <div className="projects">
       <h2>PROJECTS</h2>
       <div className="project">
-        <h3>RADIO 135</h3>
+        <h3>Radio 135</h3>
         <div className="stack">
           <p>REACT</p>
           <p>REACT-REDUX</p>
@@ -19,7 +19,7 @@ const Projects = () => {
         </p>
       </div>
       <div className="project">
-        <h3>CAMP CLUB</h3>
+        <h3>Camp Club</h3>
         <div className="stack">
           <p>RUBY ON RAILS</p>
           <p>POSTGRESQL</p>
@@ -31,20 +31,12 @@ const Projects = () => {
         </p>
       </div>
       <div className="project">
-        <h3>PLANT SHOP</h3>
+        <h3>Plant Shop</h3>
         <div className="stack">
-          <p>VANILLA JAVASCRIPT</p>
+          <p>JAVASCRIPT</p>
           <p>MYSQL</p>
         </div>
         <p>e-commerce site for users to shop.</p>
-      </div>
-      <div className="project">
-        <h3>FILM PHOTOGRAPHY</h3>
-        {/* <div className="stack">
-          <p>VANILLA JAVASCRIPT</p>
-          <p>MYSQL</p>
-        </div> */}
-        <p>film photography thorughout the years</p>
       </div>
     </div>
   );

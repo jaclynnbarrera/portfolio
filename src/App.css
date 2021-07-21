@@ -1,5 +1,30 @@
 .App {
-  margin: 30px;
+  /* margin: 30px; */
+  /* margin-left: 5%;
+  margin-right: 5%; */
+}
+
+.nav {
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  background-color: lightgreen;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.contact,
+.projects,
+.intro,
+.about,
+.footer {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .App-logo {
@@ -44,13 +69,17 @@
 }
 
 .nav p {
-  float: right;
   margin: 10px;
   font-size: 20px;
 }
 
 .nav p:first-child {
   margin-right: auto;
+  margin-left: 5%;
+}
+
+.nav p:last-child {
+  margin-right: 5%;
 }
 
 .intro {
@@ -61,7 +90,8 @@
   margin-top: 100px;
 }
 
-.project {
+.project,
+.contact p {
   border-top: 1px lightgray solid;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -85,4 +115,13 @@
   border-radius: 2px;
   margin: 3px;
   padding: 3px;
+}
+
+.about p {
+  padding-right: 40%;
+}
+
+.about {
+  display: flex;
+  justify-content: flex-start;
 }

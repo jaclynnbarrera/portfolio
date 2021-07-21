@@ -4,6 +4,7 @@ import Nav from "../components/Nav";
 import Projects from "../components/Projects";
 import About from "../components/About";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 class Home extends React.Component {
   render() {
@@ -15,6 +16,7 @@ class Home extends React.Component {
         <Projects />
         <About />
         <Contact />
+        <Footer />
       </div>
     );
   }

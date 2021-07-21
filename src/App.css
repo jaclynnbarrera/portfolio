@@ -10,19 +10,44 @@
   z-index: 100;
   position: fixed;
   background-color: lightgreen;
+  border-bottom: 1px black solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav p {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.nav p:first-child {
+  margin-right: auto;
+  margin-left: 5%;
+}
+
+.nav p:last-child {
+  margin-right: 5%;
 }
 
 .footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px black solid;
   bottom: 0;
   width: 100%;
   z-index: 100;
+  background-color: lightgreen;
+}
+
+.footer p {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .contact,
 .projects,
 .intro,
-.about,
-.footer {
+.about {
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -60,26 +85,6 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.nav {
-  border-bottom: 1px black solid;
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav p {
-  margin: 10px;
-  font-size: 20px;
-}
-
-.nav p:first-child {
-  margin-right: auto;
-  margin-left: 5%;
-}
-
-.nav p:last-child {
-  margin-right: 5%;
 }
 
 .intro {

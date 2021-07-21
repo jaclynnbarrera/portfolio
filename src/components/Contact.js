@@ -4,9 +4,18 @@ const Contact = () => {
   return (
     <div className="contact">
       <h2>ETC</h2>
-      <p>Github</p>
-      <p>Twitter</p>
-      <p>Medium</p>
+
+      <a href="https://github.com/jaclynnbarrera">
+        <p>GitHub</p>
+      </a>
+
+      <a href="https://github.com/jaclynnbarrera">
+        <p>Twitter</p>
+      </a>
+
+      <a href="https://github.com/jaclynnbarrera">
+        <p>Medium</p>
+      </a>
     </div>
   );
 };

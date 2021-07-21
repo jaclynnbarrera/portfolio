@@ -1,5 +1,4 @@
 import React from "react";
-import Contact from "./Contact";
 
 const About = () => {
   return (
@@ -12,10 +11,11 @@ const About = () => {
           can help make a difference or simply brighten someones day.
         </p>
         <p>
-          I’m a recent graduate of Flatiron School Software Engineering
+          I’m a recent graduate of Flatiron School's Software Engineering
           Bootcamp. Previously, I worked as a marketing and community manager at
           a job platform start-up built for creatives of all different mediums
-          and skills. Here’s my resume for more details.
+          and skills where I often collaborated with designers and developers.
+          Here’s my resume for more details.
         </p>
         <p>
           When I'm not coding, I shoot film photography, make way too many music

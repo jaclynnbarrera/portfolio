@@ -4,6 +4,15 @@
   margin-right: 5%; */
 }
 
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-style: italic;
+}
+
 .nav {
   top: 0;
   width: 100%;
@@ -52,6 +61,11 @@
   margin-right: 5%;
 }
 
+.projects h2,
+.blurb h2 {
+  font-size: 40px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -63,21 +77,6 @@
   }
 }
 
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-} */
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -88,11 +87,32 @@
 }
 
 .intro {
-  font-size: 60px;
+  font-size: 70px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
   margin-top: 100px;
+}
+
+.intro p {
+  padding-right: 20%;
+  line-height: 110%;
+}
+
+/* .intro p:hover:first-letter {
+  background-color: black;
+  border-radius: 5%;
+  color: white;
+} */
+
+/* .intro p:hover:nth-child(n) {
+  background-color: black;
+  border-radius: 5%;
+  color: white;
+} */
+
+.intro img {
+  padding-top: 5%;
 }
 
 .project,
@@ -104,10 +124,20 @@
 
 .project h3 {
   margin: 1px;
+  padding-bottom: 1%;
+  font-size: 40px;
+}
+
+.project h3:hover:after {
+  content: url(https://i.ibb.co/tp4Vzm7/Screen-Shot-2021-07-27-at-12-26-47-AM.png);
+  display: inline-block;
+  position: absolute;
+  padding-left: 40%;
 }
 
 .project p {
   padding-right: 50%;
+  font-size: 17px;
 }
 
 .stack {
@@ -122,11 +152,27 @@
   padding: 3px;
 }
 
-.about p {
-  padding-right: 40%;
+.stack p:hover {
+  border: 7px lightgreen solid;
+  border-radius: 2px;
+  background-color: black;
+  margin: 3px;
+  padding: 3px;
+  color: white;
 }
 
 .about {
   display: flex;
   justify-content: flex-start;
+  background-color: lightgreen;
+  border: black dashed 1px;
+  border-radius: 1%;
+  text-align: center;
+  margin: 10%;
+}
+
+.about p {
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 20px;
 }

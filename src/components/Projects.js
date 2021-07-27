@@ -87,6 +87,20 @@ const Projects = () => {
           </a>
         </div>
       </div>
+      <div className="project">
+        <h3>Film Photography</h3>
+
+        <p>A selection of film Photography 35mm and 120mm</p>
+        <div className="links">
+          <a href="https://github.com/jaclynnbarrera/music-player-frontend">
+            Github
+          </a>{" "}
+          |{" "}
+          <a href="https://github.com/jaclynnbarrera/music-player-frontend">
+            Demo
+          </a>
+        </div>
+      </div>
     </div>
   );
 };

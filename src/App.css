@@ -9,8 +9,13 @@ a:visited {
   color: black;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 a:hover {
-  font-style: italic;
+  /* font-style: italic; */
+  font-weight: bold;
 }
 
 .nav {
@@ -98,18 +103,6 @@ a:hover {
   padding-right: 20%;
   line-height: 110%;
 }
-
-/* .intro p:hover:first-letter {
-  background-color: black;
-  border-radius: 5%;
-  color: white;
-} */
-
-/* .intro p:hover:nth-child(n) {
-  background-color: black;
-  border-radius: 5%;
-  color: white;
-} */
 
 .intro img {
   padding-top: 5%;

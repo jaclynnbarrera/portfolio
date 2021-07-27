@@ -19,11 +19,16 @@ const Projects = () => {
         </p>
         <div className="links">
           <a href="https://github.com/jaclynnbarrera/music-player-frontend">
-            Github
+            Github ↗️
           </a>{" "}
+          {/* <img
+            src="https://i.ibb.co/JFh8p52/noun-diagonal-arrow-2679406.png"
+            alt="noun-diagonal-arrow-2679406"
+            border="0"
+          /> */}
           |{" "}
           <a href="https://github.com/jaclynnbarrera/music-player-frontend">
-            Demo
+            Demo ↗️
           </a>
         </div>
       </div>
@@ -37,11 +42,11 @@ const Projects = () => {
         <p>The Plant Shop is an e-commerce web app selling plants.</p>
         <div className="links">
           <a href="https://github.com/jaclynnbarrera/music-player-frontend">
-            Github
+            Github ↗️
           </a>{" "}
           |{" "}
           <a href="https://github.com/jaclynnbarrera/music-player-frontend">
-            Demo
+            Demo ↗️
           </a>
         </div>
       </div>
@@ -61,11 +66,11 @@ const Projects = () => {
         </p>
         <div className="links">
           <a href="https://github.com/jaclynnbarrera/music-player-frontend">
-            Github
+            Github ↗️
           </a>{" "}
           |{" "}
           <a href="https://github.com/jaclynnbarrera/music-player-frontend">
-            Demo
+            Demo ↗️
           </a>
         </div>
       </div>
@@ -79,11 +84,11 @@ const Projects = () => {
         <p>A Command Line Interface application</p>
         <div className="links">
           <a href="https://github.com/jaclynnbarrera/music-player-frontend">
-            Github
+            Github ↗️
           </a>{" "}
           |{" "}
           <a href="https://github.com/jaclynnbarrera/music-player-frontend">
-            Demo
+            Demo ↗️
           </a>
         </div>
       </div>
@@ -93,11 +98,11 @@ const Projects = () => {
         <p>A selection of film Photography 35mm and 120mm</p>
         <div className="links">
           <a href="https://github.com/jaclynnbarrera/music-player-frontend">
-            Github
+            Github ↗️
           </a>{" "}
           |{" "}
           <a href="https://github.com/jaclynnbarrera/music-player-frontend">
-            Demo
+            Demo ↗️
           </a>
         </div>
       </div>

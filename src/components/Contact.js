@@ -3,18 +3,18 @@ import React from "react";
 const Contact = () => {
   return (
     <div className="contact">
-      <h2>ETC</h2>
+      <h2>WHERE TO FIND ME</h2>
 
       <a href="https://github.com/jaclynnbarrera">
-        <p>GitHub</p>
+        <p>GitHub ↗️</p>
       </a>
 
       <a href="https://github.com/jaclynnbarrera">
-        <p>Twitter</p>
+        <p>Twitter ↗️</p>
       </a>
 
       <a href="https://github.com/jaclynnbarrera">
-        <p>Medium</p>
+        <p>Medium ↗️</p>
       </a>
     </div>
   );

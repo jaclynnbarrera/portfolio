@@ -14,7 +14,6 @@ a:link {
 }
 
 a:hover {
-  /* font-style: italic; */
   font-weight: bold;
 }
 
@@ -106,6 +105,33 @@ a:hover {
 
 .intro img {
   padding-top: 5%;
+}
+
+.name,
+.city {
+  text-decoration: underline;
+}
+
+.name:hover,
+.city:hover,
+.project h3:hover {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.name:hover:after {
+  content: url(https://i.ibb.co/Yj4KMkD/IMG-1454.jpg);
+  display: inline-block;
+  position: absolute;
+  padding-left: 40%;
+}
+
+.city:hover:after {
+  content: url(https://i.ibb.co/P6cSjnH/3c69a6491e341f9d2d80af2be6ecdf9c.jpg);
+  display: inline-block;
+  position: absolute;
+  margin: auto;
+  padding-left: 5%;
 }
 
 .project,

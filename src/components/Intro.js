@@ -5,8 +5,8 @@ const Intro = () => {
   return (
     <div className="intro">
       <p>
-        Hola, my name is Jaclyn. I'm a full-stack developer based in New York
-        City.
+        Hola, my name is <span className="name">Jaclyn</span>. I'm a full-stack
+        developer based in <span className="city">New York City</span>.
       </p>
       <img
         src="https://i.ibb.co/frZXzKt/globe.gif"

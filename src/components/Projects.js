@@ -21,11 +21,6 @@ const Projects = () => {
           <a href="https://github.com/jaclynnbarrera/music-player-frontend">
             Github ↗️
           </a>{" "}
-          {/* <img
-            src="https://i.ibb.co/JFh8p52/noun-diagonal-arrow-2679406.png"
-            alt="noun-diagonal-arrow-2679406"
-            border="0"
-          /> */}
           |{" "}
           <a href="https://github.com/jaclynnbarrera/music-player-frontend">
             Demo ↗️
@@ -39,7 +34,11 @@ const Projects = () => {
           <p>RAILS AS API</p>
           <p>POSTGRESQL</p>
         </div>
-        <p>The Plant Shop is an e-commerce web app selling plants.</p>
+        <p>
+          Developed an online radio statio site inspired by independent radio
+          stations like NTSradio and lot radio. Users can select from curated
+          songs and playlists, watch videos and leave comments.
+        </p>
         <div className="links">
           <a href="https://github.com/jaclynnbarrera/music-player-frontend">
             Github ↗️
@@ -81,7 +80,11 @@ const Projects = () => {
           <p>FROSTLINE API</p>
           <p>NOKOGIRI</p>
         </div>
-        <p>A Command Line Interface application</p>
+        <p>
+          Developed an online radio statio site inspired by independent radio
+          stations like NTSradio and lot radio. Users can select from curated
+          songs and playlists, watch videos and leave comments.
+        </p>
         <div className="links">
           <a href="https://github.com/jaclynnbarrera/music-player-frontend">
             Github ↗️
@@ -94,15 +97,18 @@ const Projects = () => {
       </div>
       <div className="project">
         <h3>Film Photography</h3>
-
-        <p>A selection of film Photography 35mm and 120mm</p>
+        <div className="stack">
+          <p>ADOBE LIGHTROOM</p>
+          <p>ADOBE PHOTOSHOP</p>
+        </div>
+        <p>
+          Developed an online radio statio site inspired by independent radio
+          stations like NTSradio and lot radio. Users can select from curated
+          songs and playlists, watch videos and leave comments.
+        </p>
         <div className="links">
           <a href="https://github.com/jaclynnbarrera/music-player-frontend">
-            Github ↗️
-          </a>{" "}
-          |{" "}
-          <a href="https://github.com/jaclynnbarrera/music-player-frontend">
-            Demo ↗️
+            View ↗️
           </a>
         </div>
       </div>

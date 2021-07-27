@@ -5,12 +5,12 @@ const Intro = () => {
   return (
     <div className="intro">
       <p>
-        Hola, my name is Jaclyn. <br></br>I'm a full-stack developer <br></br>
-        based in New York City.
+        Hola, my name is Jaclyn. <br></br>I'm a full-stack developer and
+        designer based in New York City.
       </p>
       <img
-        src="https://i.ibb.co/kmpy3QZ/noun-internet-3699851.png"
-        alt="noun-internet-3699851"
+        src="https://i.ibb.co/frZXzKt/globe.gif"
+        alt="globe"
         border="0"
         width="450px"
         height="350px"

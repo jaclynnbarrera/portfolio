@@ -5,7 +5,7 @@ const Projects = () => {
     <div className="projects">
       <h2>WORK</h2>
       <div className="project">
-        <h3>Radio 135</h3>
+        <h3 className="radio">Radio 135</h3>
         <div className="stack">
           <p>REACT</p>
           <p>REDUX</p>
@@ -28,7 +28,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="project">
-        <h3>The Plant Shop</h3>
+        <h3 className="plant">The Plant Shop</h3>
         <div className="stack">
           <p>VANILLA JS</p>
           <p>RAILS AS API</p>
@@ -50,7 +50,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="project">
-        <h3>Camp Club</h3>
+        <h3 className="camp">Camp Club</h3>
         <div className="stack">
           <p>RUBY ON RAILS</p>
           <p>OMNIAUTH</p>
@@ -64,12 +64,18 @@ const Projects = () => {
           by state.
         </p>
         <div className="links">
-          <a href="https://github.com/jaclynnbarrera/music-player-frontend">
-            Github ↗️
-          </a>{" "}
-          |{" "}
+          <a
+            href="https://github.com/jaclynnbarrera/music-player-frontend"
+            target="_blank"
+          >
+            Github ↗️ |{" "}
+          </a>
           <a href="https://github.com/jaclynnbarrera/music-player-frontend">
             Demo ↗️
+          </a>{" "}
+          |{" "}
+          <a href="https://camp-club.herokuapp.com/" target="_blank">
+            Live Site ↗️
           </a>
         </div>
       </div>

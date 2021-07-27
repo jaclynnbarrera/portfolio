@@ -120,10 +120,10 @@ a:hover {
 }
 
 .name:hover:after {
-  content: url(https://i.ibb.co/Yj4KMkD/IMG-1454.jpg);
+  content: url(https://i.ibb.co/y4zpfD6/IMG-1454.jpg);
   display: inline-block;
   position: absolute;
-  padding-left: 40%;
+  padding-left: 35%;
 }
 
 .city:hover:after {
@@ -147,11 +147,25 @@ a:hover {
   font-size: 40px;
 }
 
-.project h3:hover:after {
+.radio:hover:after {
   content: url(https://i.ibb.co/tp4Vzm7/Screen-Shot-2021-07-27-at-12-26-47-AM.png);
   display: inline-block;
   position: absolute;
-  padding-left: 40%;
+  padding-left: 30%;
+}
+
+.plant:hover:after {
+  content: url(https://i.ibb.co/yqYXC9s/Screen-Shot-2021-07-27-at-12-30-55-AM.png);
+  display: inline-block;
+  position: absolute;
+  padding-left: 25%;
+}
+
+.camp:hover:after {
+  content: url(https://i.ibb.co/pRwS9wS/Screen-Shot-2021-07-27-at-7-40-15-PM.png);
+  display: inline-block;
+  position: absolute;
+  padding-left: 30%;
 }
 
 .project p {

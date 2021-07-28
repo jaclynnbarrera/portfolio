@@ -168,6 +168,13 @@ a:hover {
   padding-left: 30%;
 }
 
+.zones:hover:after {
+  content: url(https://i.ibb.co/k2ZytJM/Screen-Shot-2021-07-27-at-7-55-37-PM.png);
+  display: inline-block;
+  position: absolute;
+  padding-left: 30%;
+}
+
 .project p {
   padding-right: 50%;
   font-size: 17px;

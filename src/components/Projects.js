@@ -13,17 +13,27 @@ const Projects = () => {
           <p>POSTGRESQL</p>
         </div>
         <p>
-          Developed an online radio statio site inspired by independent radio
-          stations like NTSradio and lot radio. Users can select from curated
-          songs and playlists, watch videos and leave comments.
+          Developed an online radio statio inspired by independent radio
+          stations like NTS Radio and The Lot Radio. Users can select from
+          curated songs and DJ sets, watch videos and leave comments.
         </p>
         <div className="links">
-          <a href="https://github.com/jaclynnbarrera/music-player-frontend">
+          <a
+            href="https://github.com/jaclynnbarrera/music-player-frontend"
+            target="_blank"
+          >
             Github ↗️
           </a>{" "}
           |{" "}
-          <a href="https://github.com/jaclynnbarrera/music-player-frontend">
-            Demo ↗️
+          <a
+            href="https://www.youtube.com/watch?v=KWOz8rt1-zE&feature=youtu.be"
+            target="_blank"
+          >
+            Demo ↗️ |
+          </a>
+          <a href="https://radio135.netlify.app/" target="_blank">
+            {" "}
+            Live Site ↗️
           </a>
         </div>
       </div>
@@ -35,17 +45,26 @@ const Projects = () => {
           <p>POSTGRESQL</p>
         </div>
         <p>
-          Developed an online radio statio site inspired by independent radio
-          stations like NTSradio and lot radio. Users can select from curated
-          songs and playlists, watch videos and leave comments.
+          The Plant Shop is an e-commerce single page application where users
+          can shop for different plants, add and remove items from their cart.
         </p>
         <div className="links">
-          <a href="https://github.com/jaclynnbarrera/music-player-frontend">
+          <a
+            href="https://github.com/jaclynnbarrera/the-plant-shop"
+            target="_blank"
+          >
             Github ↗️
           </a>{" "}
           |{" "}
-          <a href="https://github.com/jaclynnbarrera/music-player-frontend">
-            Demo ↗️
+          <a href="https://www.youtube.com/watch?v=EBNyFQTuNVY" target="_blank">
+            {" "}
+            Demo ↗️ |{" "}
+          </a>
+          <a
+            href="https://jaclynnbarrera.github.io/theplantshop/"
+            target="_blank"
+          >
+            Live Site ↗️
           </a>
         </div>
       </div>
@@ -65,12 +84,12 @@ const Projects = () => {
         </p>
         <div className="links">
           <a
-            href="https://github.com/jaclynnbarrera/music-player-frontend"
+            href="https://github.com/jaclynnbarrera/camp-club-app"
             target="_blank"
           >
             Github ↗️ |{" "}
           </a>
-          <a href="https://github.com/jaclynnbarrera/music-player-frontend">
+          <a href="https://www.youtube.com/watch?v=tRUzdfTXxdU" target="_blank">
             Demo ↗️
           </a>{" "}
           |{" "}
@@ -80,7 +99,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="project">
-        <h3>Garden Zones</h3>
+        <h3 className="zones">Garden Zones</h3>
         <div className="stack">
           <p>RUBY</p>
           <p>FROSTLINE API</p>
@@ -92,30 +111,13 @@ const Projects = () => {
           songs and playlists, watch videos and leave comments.
         </p>
         <div className="links">
-          <a href="https://github.com/jaclynnbarrera/music-player-frontend">
+          <a
+            href="https://github.com/jaclynnbarrera/garden-zone-app"
+            target="_blank"
+          >
             Github ↗️
           </a>{" "}
-          |{" "}
-          <a href="https://github.com/jaclynnbarrera/music-player-frontend">
-            Demo ↗️
-          </a>
-        </div>
-      </div>
-      <div className="project">
-        <h3>Film Photography</h3>
-        <div className="stack">
-          <p>ADOBE LIGHTROOM</p>
-          <p>ADOBE PHOTOSHOP</p>
-        </div>
-        <p>
-          Developed an online radio statio site inspired by independent radio
-          stations like NTSradio and lot radio. Users can select from curated
-          songs and playlists, watch videos and leave comments.
-        </p>
-        <div className="links">
-          <a href="https://github.com/jaclynnbarrera/music-player-frontend">
-            View ↗️
-          </a>
+          | <a href="">Demo ↗️</a>
         </div>
       </div>
     </div>

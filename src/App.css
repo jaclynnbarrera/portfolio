@@ -17,6 +17,10 @@ a:hover {
   font-weight: bold;
 }
 
+a[href^="mailto:"] {
+  color: black;
+}
+
 .nav {
   top: 0;
   width: 100%;

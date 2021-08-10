@@ -29,11 +29,7 @@ const Projects = () => {
             href="https://www.youtube.com/watch?v=KWOz8rt1-zE&feature=youtu.be"
             target="_blank"
           >
-            Demo ↗️ |
-          </a>
-          <a href="https://radio135.netlify.app/" target="_blank">
-            {" "}
-            Live Site ↗️
+            Demo ↗️
           </a>
         </div>
       </div>
@@ -58,13 +54,7 @@ const Projects = () => {
           |{" "}
           <a href="https://www.youtube.com/watch?v=EBNyFQTuNVY" target="_blank">
             {" "}
-            Demo ↗️ |{" "}
-          </a>
-          <a
-            href="https://jaclynnbarrera.github.io/theplantshop/"
-            target="_blank"
-          >
-            Live Site ↗️
+            Demo ↗️
           </a>
         </div>
       </div>
@@ -91,10 +81,6 @@ const Projects = () => {
           </a>
           <a href="https://www.youtube.com/watch?v=tRUzdfTXxdU" target="_blank">
             Demo ↗️
-          </a>{" "}
-          |{" "}
-          <a href="https://camp-club.herokuapp.com/" target="_blank">
-            Live Site ↗️
           </a>
         </div>
       </div>

@@ -14,20 +14,22 @@ const Projects = () => {
         </div>
         <p>
           Developed an online radio statio inspired by independent radio
-          stations like NTS Radio and The Lot Radio. Users can select from
-          curated songs and DJ sets, watch videos and leave comments.
+          stations like NTS Radio and The Lot Radio. Users can search or select
+          from curated songs and DJ sets, watch videos, and leave comments.
         </p>
         <div className="links">
           <a
             href="https://github.com/jaclynnbarrera/music-player-frontend"
             target="_blank"
+            rel="noreferrer"
           >
             Github ↗️
           </a>{" "}
           |{" "}
           <a
-            href="https://www.youtube.com/watch?v=KWOz8rt1-zE&feature=youtu.be"
+            href="https://youtu.be/etCcx3KrEcw"
             target="_blank"
+            rel="noreferrer"
           >
             Demo ↗️
           </a>
@@ -48,11 +50,16 @@ const Projects = () => {
           <a
             href="https://github.com/jaclynnbarrera/the-plant-shop"
             target="_blank"
+            rel="noreferrer"
           >
             Github ↗️
           </a>{" "}
           |{" "}
-          <a href="https://www.youtube.com/watch?v=EBNyFQTuNVY" target="_blank">
+          <a
+            href="https://youtu.be/HaBdLBOtpoY"
+            target="_blank"
+            rel="noreferrer"
+          >
             {" "}
             Demo ↗️
           </a>
@@ -76,10 +83,11 @@ const Projects = () => {
           <a
             href="https://github.com/jaclynnbarrera/camp-club-app"
             target="_blank"
+            rel="noreferrer"
           >
             Github ↗️ |{" "}
           </a>
-          <a href="https://www.youtube.com/watch?v=tRUzdfTXxdU" target="_blank">
+          <a href="https://youtu.be/iaZTh2JFKXA" target="_blank">
             Demo ↗️
           </a>
         </div>
@@ -92,18 +100,22 @@ const Projects = () => {
           <p>NOKOGIRI</p>
         </div>
         <p>
-          Developed an online radio statio site inspired by independent radio
-          stations like NTSradio and lot radio. Users can select from curated
-          songs and playlists, watch videos and leave comments.
+          Garden Zones is a command line interface application that helps you
+          identify and learn about different plants and vegetables based on your
+          gardening zone.
         </p>
         <div className="links">
           <a
             href="https://github.com/jaclynnbarrera/garden-zone-app"
             target="_blank"
+            rel="noreferrer"
           >
             Github ↗️
           </a>{" "}
-          | <a href="">Demo ↗️</a>
+          |{" "}
+          <a href="https://youtu.be/KpspE73aPGg" target="_blank">
+            Demo ↗️
+          </a>
         </div>
       </div>
     </div>

@@ -5,7 +5,7 @@ const Intro = () => {
   return (
     <div className="intro">
       <p>
-        Hello, my name is <span className="name">Jaclyn</span>. I'm a full-stack
+        Hello, my name is <span className="name">Jaclyn</span>. I'm a full stack
         developer based in <span className="city">New York City</span>.
       </p>
       <img

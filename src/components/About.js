@@ -15,14 +15,22 @@ const About = () => {
           Bootcamp. Previously, I worked as a marketing and community manager at
           a job platform start-up built for creatives of all different mediums
           and skills where I often collaborated with designers and developers.
-          Here’s my resume for more details.
+          Here’s my{" "}
+          <a
+            href="https://www.dropbox.com/s/hbz4r70c3rlji8s/Jaclyn%20Barrera%20Resume.pdf?dl=0"
+            target="_blank"
+            rel="noreferrer"
+          >
+            resume ↗️
+          </a>{" "}
+          for more details.
         </p>
         <p>
           When I'm not coding, I shoot film photography, make way too many music
           playlists and hang out with my dog Appa. I’m currently based in New
           York, where I was born and raised.
         </p>
-        <p>Say hello - hello@jaclynbarrera.dev</p>
+        <p>Say hello - jaclynnbarrera@gmail.com</p>
       </div>
     </div>
   );

@@ -27,11 +27,11 @@ const Projects = () => {
           </a>{" "}
           |{" "}
           <a
-            href="https://youtu.be/etCcx3KrEcw"
+            href="https://radio135.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
-            Demo ↗️
+            Live Site ↗️
           </a>
         </div>
       </div>
@@ -56,12 +56,12 @@ const Projects = () => {
           </a>{" "}
           |{" "}
           <a
-            href="https://youtu.be/HaBdLBOtpoY"
+            href="https://jaclynnbarrera.github.io/theplantshop/"
             target="_blank"
             rel="noreferrer"
           >
             {" "}
-            Demo ↗️
+            Live Site ↗️
           </a>
         </div>
       </div>
@@ -87,8 +87,8 @@ const Projects = () => {
           >
             Github ↗️ |{" "}
           </a>
-          <a href="https://youtu.be/iaZTh2JFKXA" target="_blank">
-            Demo ↗️
+          <a href="http://camp-club.herokuapp.com/" target="_blank">
+            Live Site ↗️
           </a>
         </div>
       </div>

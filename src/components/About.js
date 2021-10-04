@@ -17,7 +17,7 @@ const About = () => {
           and skills where I often collaborated with designers and developers.
           Here’s my{" "}
           <a
-            href="https://www.dropbox.com/s/hbz4r70c3rlji8s/Jaclyn%20Barrera%20Resume.pdf?dl=0"
+            href="https://www.dropbox.com/s/wxhhvvuuljpvv7g/Jaclyn%20Barrera%20Resume.pdf?dl=0"
             target="_blank"
             rel="noreferrer"
           >

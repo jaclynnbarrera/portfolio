@@ -9,13 +9,13 @@ const Projects = () => {
         <div className="stack">
           <p>REACT</p>
           <p>REDUX</p>
-          <p>RAILS AS API</p>
+          <p>RUBY ON RAILS AP</p>
           <p>POSTGRESQL</p>
         </div>
         <p>
-          Developed an online radio statio inspired by independent radio
-          stations like NTS Radio and The Lot Radio. Users can search or select
-          from curated songs and DJ sets, watch videos, and leave comments.
+          Developed an online radio station and video player where users can
+          discover a selection of songs and mixes and leave comments on favorite
+          songs.
         </p>
         <div className="links">
           <a
@@ -27,19 +27,19 @@ const Projects = () => {
           </a>{" "}
           |{" "}
           <a
-            href="https://radio135.netlify.app/"
+            href="https://www.youtube.com/watch?v=69RPztsqZAs"
             target="_blank"
             rel="noreferrer"
           >
-            Live Site ↗️
+            Demo ↗️
           </a>
         </div>
       </div>
       <div className="project">
         <h3 className="plant">The Plant Shop</h3>
         <div className="stack">
-          <p>VANILLA JS</p>
-          <p>RAILS AS API</p>
+          <p>JAVASCRIPT</p>
+          <p>RUBY ON RAILS API</p>
           <p>POSTGRESQL</p>
         </div>
         <p>
@@ -56,12 +56,12 @@ const Projects = () => {
           </a>{" "}
           |{" "}
           <a
-            href="https://jaclynnbarrera.github.io/theplantshop/"
+            href="https://youtu.be/UoWabLQ8uak"
             target="_blank"
             rel="noreferrer"
           >
             {" "}
-            Live Site ↗️
+            Demo ↗️
           </a>
         </div>
       </div>
@@ -70,14 +70,12 @@ const Projects = () => {
         <div className="stack">
           <p>RUBY ON RAILS</p>
           <p>OMNIAUTH</p>
-          <p>SQLITE</p>
+          <p>MYSQL</p>
         </div>
         <p>
-          Camp Club is an app where campers can explore different campsites and
-          their ammenities. Campers can leave reviews for their favorite
-          campsites and see other campers who have also stayed there. Campers
-          can also create a new campsite if it's not in the database and search
-          by state.
+          Camp Club is a complete Ruby on Rails application that allows you
+          explore and leave reviews on your favorite campsites, enter new
+          campsites into our database and see other camper profiles.
         </p>
         <div className="links">
           <a
@@ -87,8 +85,8 @@ const Projects = () => {
           >
             Github ↗️ |{" "}
           </a>
-          <a href="http://camp-club.herokuapp.com/" target="_blank">
-            Live Site ↗️
+          <a href="https://youtu.be/GY0ZREoSVQo" target="_blank">
+            Demo ↗️
           </a>
         </div>
       </div>

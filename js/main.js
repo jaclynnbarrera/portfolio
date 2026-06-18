@@ -5,7 +5,7 @@ const projects = [
     type: "Interactive / Web / 3D",
     url: "https://spatial-garden-production.up.railway.app/",
     description: "My internet brain, rendered in 3D.",
-    color: "#e8e4dc",
+    image: "/images/projects/spatial-garden.png",
   },
   {
     title: "Sound Mood Atlas",
@@ -13,7 +13,7 @@ const projects = [
     type: "Data Visualization / Web / Sound",
     url: "https://sound-mood-atlas.vercel.app/",
     description: "Explore songs by mood.",
-    color: "#dcd8d0",
+    image: "/images/projects/sound-mood-atlas.png",
   },
   {
     title: "Garden Zones",
@@ -21,7 +21,7 @@ const projects = [
     type: "Open Source",
     url: "https://github.com/jaclynnbarrera/garden-zone-app",
     description: "Simple command-line interface project that helps you identify and learn about different plants and vegetables based on your gardening zone. ",
-    color: "#cbc5b8",
+    image: "/images/projects/garden-zones.png",
   },
   {
     title: "CV",
@@ -29,7 +29,7 @@ const projects = [
     type: "Resume",
     url: "assets/cv.pdf",
     description: "Experience, skills, and selected work.",
-    color: "#d4cfc4",
+    image: "/images/projects/cv.png",
   },
 ];
 
@@ -39,6 +39,7 @@ const previewIndex = document.getElementById("preview-index");
 const previewTitle = document.getElementById("preview-title");
 const previewMeta = document.getElementById("preview-meta");
 const previewVisual = document.getElementById("preview-visual");
+const previewImage = document.getElementById("preview-image");
 const yearEl = document.getElementById("year");
 
 yearEl.textContent = new Date().getFullYear();
@@ -77,7 +78,8 @@ function showPreview(index) {
   previewIndex.textContent = padIndex(index + 1);
   previewTitle.textContent = project.title;
   previewMeta.textContent = `${project.year} · ${project.type}`;
-  previewVisual.style.background = project.color;
+  previewImage.src = project.image;
+  previewImage.alt = `${project.title} preview`;
   previewVisual.dataset.label = project.description;
 
   preview.classList.add("is-visible");
